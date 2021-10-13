@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quizadda/models/question.dart';
-import 'package:quizadda/ui/pages/check_answers.dart';
+import 'package:quizApp/models/question.dart';
+import 'package:quizApp/ui/pages/check_answers.dart';
 
 class QuizFinishedPage extends StatelessWidget {
   final List<Question> questions;

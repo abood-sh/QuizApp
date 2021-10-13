@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
-import 'package:quizadda/models/category.dart';
-import 'package:quizadda/models/question.dart';
-import 'package:quizadda/resources/api_provider.dart';
-import 'package:quizadda/ui/pages/error.dart';
-import 'package:quizadda/ui/pages/quiz_page.dart';
+import 'package:quizApp/models/category.dart';
+import 'package:quizApp/models/question.dart';
+import 'package:quizApp/resources/api_provider.dart';
+import 'package:quizApp/ui/pages/error.dart';
+import 'package:quizApp/ui/pages/quiz_page.dart';
 
 class QuizOptionsDialog extends StatefulWidget {
   final Category category;

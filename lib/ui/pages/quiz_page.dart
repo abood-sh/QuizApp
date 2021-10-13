@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:quizadda/models/category.dart';
-import 'package:quizadda/models/question.dart';
+import 'package:quizApp/models/category.dart';
+import 'package:quizApp/models/question.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
-import 'package:quizadda/ui/pages/quiz_finished.dart';
+import 'package:quizApp/ui/pages/quiz_finished.dart';
 import 'package:html_unescape/html_unescape.dart';
 
 class QuizPage extends StatefulWidget {

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_custom_clippers/flutter_custom_clippers.dart';
-import 'package:quizadda/models/category.dart';
-import 'package:quizadda/ui/widgets/quiz_options.dart';
+import 'package:quizApp/models/category.dart';
+import 'package:quizApp/ui/widgets/quiz_options.dart';
 import 'package:auto_size_text/auto_size_text.dart';
 
 class HomePage extends StatelessWidget {
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context){
     return Scaffold(
       appBar: AppBar(
-        title: Text('QuizAdda'),
+        title: Text('quizApp'),
         elevation: 0,
       ),
       body: Stack(
